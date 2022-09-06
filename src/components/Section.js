@@ -5,8 +5,8 @@ const Section = () => {
     return ( 
         
         <section className="bg-gray-100 pt-64 pb-10 px-16">
-            <h2 className="text-main font-bold text-5xl py-5 text-center font-rubik"  data-aos="zoom-in" data-aos-offset="260" data-aos-duration="2500" data-aos-delay="400">Trade securely and manage the high growth cryptocurrencies.</h2>
-            <div className="flex flex-col lg:flex-row justify-center py-5">
+            <h2 className="text-main font-bold text-2xl md:text-5xl py-5 text-center font-rubik"  data-aos="zoom-in" data-aos-offset="260" data-aos-duration="2500" data-aos-delay="400">Trade securely and manage the high growth cryptocurrencies.</h2>
+            <div className="flex flex-col lg:flex-row items-center justify-center py-5">
             <Card title={"Bitcoin"} 
             subtitle={"BTC"} 
             text={"Digital Currency in which a record of transaction in maintained."}

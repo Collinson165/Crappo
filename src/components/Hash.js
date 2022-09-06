@@ -19,10 +19,10 @@ const Hash = () => {
     // }, [])
 
     return ( 
-        <section className="bg-white text-main text-md rounded-lg max-w-2xl p-10">
+        <section className="bg-white text-main text-md rounded-lg max-w-2xl p-5 md:p-10">
             <div >
-                <form action="">
-                    <input className="p-2 appearance-none bg-transparent border-none" type="text" placeholder="Enter your hashrate" />
+                <form action="" className="flex flex-col md:block">
+                    <input className="p-2 appearance-none bg-transparent border-b " type="text" placeholder="Enter your hashrate" />
                     <select className="p-2 m-2" name="" id="">
                         <option value="TH/s">KH/s</option>
                         <option value="MH/s">MH/s</option>
@@ -30,7 +30,7 @@ const Hash = () => {
                         <option value="PH/s">PH/s</option>
                         <option value="EH/s">EH/s</option>
                     </select>
-                    <button className="bg-button ml-16 text-white px-4 py-2 rounded-full">Calculate</button>
+                    <button className="bg-button lg:ml-16 text-white px-4 py-2 rounded-full">Calculate</button>
                 </form>
             </div>
             <div className="pt-10">
