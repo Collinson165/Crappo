@@ -32,7 +32,7 @@ const Header = () => {
                     </svg>
                 </div>
 
-                <div className={`lg:hidden right-0 fixed top-0 bottom-0 z-30 w-full transition-all focus:ease-in duration-500 ${navMobile ? '' : 'hidden'}`}>
+                <div className={`lg:hidden fixed top-0 bottom-0 z-30 w-full transition-all ease-in duration-500 ${navMobile ? '-right-0' : ' -right-full'}`}>
                     {navMobile && <MobileNav setNavMobile={setNavMobile} />}
                 </div>
 
