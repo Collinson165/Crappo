@@ -12,12 +12,12 @@ const Main = () => {
   
    
     return ( 
-        <main className="px-16">
+        <main className="px-4 md:px-16">
             <div className="grid grid-cols-2 py-10">
                 <div className="col-span-2 md:col-span-1 pr-16 py- flex justify-center flex-col">
-                    <p className="bg-[#252541] p-1 w-96 rounded-full"><span className="rounded-full bg-white h-full text-main font-bold py-1 px-2"  data-aos="zoom-in" data-aos-offset="50" data-aos-duration="2500" data-aos-delay="400">75% SAVE</span> For the Black Friday weekend </p>
-                    <p className="text-2xl md:text-5xl font-bold py-6 font-rubik"  data-aos="fade-up" data-aos-offset="80" data-aos-duration="2500" data-aos-delay="400">Fastest  & secure platform to invest in crypto</p>
-                    <p className="text-sm py-6"  data-aos="fade-up" data-aos-offset="100" data-aos-duration="2500" data-aos-delay="400">Buy and sell cryptocurrencies. Trusted by 10M wallets with over $30 Billion in transactions.</p>
+                    <p className="bg-[#252541] p-1 md:w-96 rounded-full text-sm md:text-lg truncate"><span className="rounded-full bg-white h-full text-main font-bold py-1 px-2"  data-aos="zoom-in" data-aos-offset="50" data-aos-duration="2500" data-aos-delay="400">75% SAVE</span><span className=""> For the Black Friday weekend </span></p>
+                    <p className="text-2xl md:text-5xl font-bold md:py-6 font-rubik"  data-aos="fade-up" data-aos-offset="80" data-aos-duration="2500" data-aos-delay="400">Fastest  & secure platform to invest in crypto</p>
+                    <p className="text-sm py-3"  data-aos="fade-up" data-aos-offset="100" data-aos-duration="2500" data-aos-delay="400">Buy and sell cryptocurrencies. Trusted by 10M wallets with over $30 Billion in transactions.</p>
                     <div  data-aos="fade-up" data-aos-offset="100" data-aos-duration="2500" data-aos-delay="400">
                         <Button text={"Try for free"} chevron={chevron} />
                     </div>

@@ -19,7 +19,7 @@ const Hash = () => {
     // }, [])
 
     return ( 
-        <section className="bg-white text-main text-md rounded-lg max-w-2xl p-5 md:p-10">
+        <section className="bg-white text-main text-sm md:text-md rounded-lg max-w-2xl p-5 md:p-10 transition hover:scale-110">
             <div >
                 <form action="" className="flex flex-col md:block">
                     <input className="p-2 appearance-none bg-transparent border-b " type="text" placeholder="Enter your hashrate" />

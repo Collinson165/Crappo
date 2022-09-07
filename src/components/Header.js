@@ -6,7 +6,7 @@ const Header = () => {
 
    
     return ( 
-            <nav className="navbar px-16 pb-5 pt-10 flex justify-between text-sm">
+            <nav className="navbar px-4 md:px-16 pb-5 pt-10 flex justify-between text-sm">
                 <div className="flex flex-row justify-center items-center" >
                     <img src="/assets/Logo.png" alt="" />
                     <h1 className="pl-3 font-bold">CRAPPO</h1>
