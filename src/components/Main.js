@@ -19,7 +19,7 @@ const Main = () => {
                     <p className="text-2xl md:text-5xl font-bold md:py-6 font-rubik"  data-aos="fade-up" data-aos-offset="80" data-aos-duration="2500" data-aos-delay="400">Fastest  & secure platform to invest in crypto</p>
                     <p className="text-sm py-3"  data-aos="fade-up" data-aos-offset="100" data-aos-duration="2500" data-aos-delay="400">Buy and sell cryptocurrencies. Trusted by 10M wallets with over $30 Billion in transactions.</p>
                     <div  data-aos="fade-up" data-aos-offset="100" data-aos-duration="2500" data-aos-delay="400">
-                        <Button text={"Try for free"} chevron={chevron} />
+                        <Button text={"Try for FREE"} chevron={chevron} />
                     </div>
                     
 

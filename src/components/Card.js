@@ -1,4 +1,5 @@
 import Button from "./Button";
+import { useState } from "react";
 
 const chevron = (
     <div className="pt-0.5 pl-2">
@@ -9,15 +10,17 @@ const chevron = (
 )
 
 export default function Card(props){
+
+    const [hover, setHover] = useState(false)
     return (
-        <div className="hover:bg-card bg-white my-2 mx-4 rounded-xl w-64 text-black hover:text-white text-center p-4 transition ease-in-out hover:scale-110">
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="hover:bg-card bg-white my-2 mx-4 rounded-xl w-64 text-black hover:text-white text-center p-4 transition ease-in-out hover:scale-110">
             <div className="flex justify-center py-4">
                 <img className="scale-75" src={props.src} alt="bitcoin" />
             </div>
             <h2 className="font-bold py-2 text-lg">{props.title}<span className="text-gray-500 text-xs"> {props.subtitle}</span></h2>
             <p className="leading-4 text-sm">{props.text}</p>
             <div className="flex justify-center px-auto py-5">
-                <Button text={"start mining"} color={"bg-button"} chevron={chevron} />
+                <Button text={hover ? "" : "start mining"} color={hover ? "bg-transparent" : "bg-button"} chevron={chevron} />
             </div>
             
             

@@ -9,21 +9,21 @@ const Footer = () => {
                 <div className="col-span-4 md:col-span-2 lg:col-span-1 py-4 flex justify-center items-center flex-col md:block text-center md:text-start">
                     <h3 className="font-bold text-xl">Quick Link</h3>
                     <ul className="text-sm leading-10">
-                        <li>Home</li>
-                        <li>Products</li>
-                        <li>About</li>
-                        <li>Features</li>
-                        <li>Contact</li>
+                        <a href="/"><li>Home</li></a> 
+                        <a href="/"><li>Products</li></a> 
+                        <a href="/"><li>About</li></a> 
+                        <a href="/"><li>Features</li></a> 
+                        <a href="/"><li>Contact</li></a> 
                     </ul>
                 </div>
                 <div className="col-span-4 md:col-span-2 lg:col-span-1 py-4 flex justify-center items-center flex-col md:block text-center md:text-start">
                     <h3 className="font-bold text-xl">Resources</h3>
                     <ul className="text-sm  leading-10">
-                        <li>Download Whitepaper</li>
-                        <li>Smart Token</li>
-                        <li>Blockchain Explorer</li>
-                        <li>Crypto API</li>
-                        <li>Interests</li>
+                        <a href="/"><li>Download Whitepaper</li></a> 
+                        <a href="/"><li>Smart Token</li></a> 
+                        <a href="/"><li>Blockchain Explorer</li></a> 
+                        <a href="/"><li>Crypto API</li></a> 
+                        <a href="/"><li>Interests</li></a> 
                     </ul>
                 </div>
                 <div className="col-span-4 md:col-span-2 lg:col-span-1 text-center md:text-start">
@@ -39,19 +39,19 @@ const Footer = () => {
                 <div className="text-xs text-center py-4 md:py-0"><p>&copy;2021CRAPPO.All Rights Reserved</p></div>
                 <div>
                     <ul className="flex justify-center md:justify-between">
-                        <li className="px-3">
+                        <li className="px-3 hover:scale-110">
                             <a href="/"><img src="/assets/facebook.png" alt="" /></a>
                         </li>
-                        <li className="px-3">
+                        <li className="px-3 hover:scale-110">
                             <a href="/"><img src="/assets/instagram.png" alt="" /></a>
                         </li>
-                        <li className="px-3">
+                        <li className="px-3 hover:scale-110">
                             <a href="/"><img src="/assets/youtube.png" alt="" /></a>
                         </li>
-                        <li className="px-3">
+                        <li className="px-3 hover:scale-110">
                             <a href="/"><img src="/assets/twitter.png" alt="" /></a>
                         </li>
-                        <li className="px-3">
+                        <li className="px-3 hover:scale-110">
                             <a href="/"><img src="/assets/linkedin.png" alt="" /></a>
                         </li>
                     </ul>

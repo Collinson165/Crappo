@@ -14,10 +14,10 @@ const Header = () => {
                 <div className="hidden lg:flex">
                     <div className="flex items-center pr-10">
                         <ul className="flex text-lg">
-                            <li className="px-4">Product</li>
-                            <li className="px-4">Features</li>
-                            <li className="px-4">About</li>
-                            <li className="px-4">Contact</li>
+                            <a href="/"><li className="px-4 hover:scale-110 hover:shadow-lg">Product</li></a>
+                            <a href="/"><li className="px-4 hover:scale-110 hover:shadow-lg">Features</li></a>
+                            <a href="/"><li className="px-4 hover:scale-110 hover:shadow-lg">About</li></a>
+                            <a href="/"><li className="px-4 hover:scale-110 hover:shadow-lg">Contact</li></a>
                         </ul>
                     </div>
                     <div>
