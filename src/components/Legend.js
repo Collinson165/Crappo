@@ -3,9 +3,9 @@ import Button from "./Button";
 const Legend = () => {
     return ( 
         <section className="legend">
-            <h2 className="font-bold font-rubik text-3xl py-20 md:px-32 text-center"  data-aos="zoom-in" data-aos-offset="280" data-aos-duration="2500" data-aos-delay="400">Market sentiments, portfolio and run <br /> the infrastructure of your choice</h2>
+            <h2 className="font-bold font-rubik text-3xl py-20 md:px-32 text-center"  data-aos="zoom-in" data-aos-offset="280" data-aos-duration="1000" data-aos-delay="400">Market sentiments, portfolio and run <br /> the infrastructure of your choice</h2>
             <div className="grid grid-cols-2 py-10">
-                <div className="col-span-2 md:col-span-1 py-5  flex justify-center  flex-col px-5 lg:pl-20 lg:pr-36"  data-aos="zoom-in" data-aos-offset="300" data-aos-duration="2500" data-aos-delay="400">
+                <div className="col-span-2 md:col-span-1 py-5  flex justify-center  flex-col px-5 lg:pl-20 lg:pr-36"  data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="400">
                     <h2 className="font-bold font-rubik text-3xl">Invest Smart</h2>
                     <p className="text-sm py-6">Get full statistic information about the behaviour of buyers and sellers which will help you to make descisions</p>
                     <div>
@@ -14,12 +14,12 @@ const Legend = () => {
                     
                 </div>
                 <div className="col-span-2 md:col-span-1 px-5">
-                    <img src="/assets/Chart.png" alt="" className="scale-90"  data-aos="zoom-in" data-aos-offset="330"  data-aos-duration="2500" />
+                    <img src="/assets/Chart.png" alt="" className="scale-90"  data-aos="zoom-in" data-aos-offset="330"  data-aos-duration="1000" />
                 </div>
                 <div className="col-span-2 md:col-span-1 py-14 flex">
-                    <img src="/assets/Statistic.png" alt=""  className="scale-y-90"  data-aos="zoom-in" data-aos-offset="320"  data-aos-duration="2500" />
+                    <img src="/assets/Statistic.png" alt=""  className="scale-y-90"  data-aos="zoom-in" data-aos-offset="320"  data-aos-duration="1000" />
                 </div>
-                <div className="col-span-2 md:col-span-1  flex justify-start md:justify-center  flex-col px-6 lg:pl-20 lg:pr-36"  data-aos="fade-up" data-aos-offset="305" data-aos-duration="2500" data-aos-delay="400">
+                <div className="col-span-2 md:col-span-1  flex justify-start md:justify-center  flex-col px-6 lg:pl-20 lg:pr-36"  data-aos="fade-up" data-aos-offset="305" data-aos-duration="1000" data-aos-delay="400">
                     <h2 className="font-bold font-rubik text-3xl">Detailed Statistics</h2>
                     <p className="text-sm py-6">View all mining related information in real at any point and at any location and decide which poll you want to mine.</p>
                     <div>
@@ -27,7 +27,7 @@ const Legend = () => {
                     </div>
                     
                 </div>
-                <div className="col-span-2 md:col-span-1 py-5  flex justify-end items-end md:items-start md:justify-center text-end md:text-start  flex-col px-6 lg:pl-20 lg:pr-36"  data-aos="fade-up" data-aos-offset="316" data-aos-duration="2500" data-aos-delay="400">
+                <div className="col-span-2 md:col-span-1 py-5  flex justify-end items-end md:items-start md:justify-center text-end md:text-start  flex-col px-6 lg:pl-20 lg:pr-36"  data-aos="fade-up" data-aos-offset="316" data-aos-duration="1000" data-aos-delay="400">
                     <h2 className="font-bold font-rubik text-3xl">Grow your profit and track your investments</h2>
                     <p className="text-sm py-6">Use advanced analytical tools. Clear tradingview charts let you track current and historical profit investments.</p>
                     <div>
@@ -36,11 +36,11 @@ const Legend = () => {
                     
                 </div>
                 <div className="col-span-2 md:col-span-1 pr-16">
-                    <img src="/assets/Table.png" alt=""  className=""  data-aos="zoom-in"  data-aos-offset="325"  data-aos-duration="2500" />
+                    <img src="/assets/Table.png" alt=""  className=""  data-aos="zoom-in"  data-aos-offset="325"  data-aos-duration="1000" />
                 </div>
             </div>
             <div className="flex justify-center py-10 md:py-20 bg-gradient-to-t from-main to-card">
-                <div className="rounded-xl bg-button container mx-2 md:mx-5 lg:mx-10 max-w-6xl p-5 md:p-10 md:flex justify-between relative overflow-hidden" data-aos="zoom-in" data-aos-offset="330" data-aos-duration="2500">
+                <div className="rounded-xl bg-button container mx-2 md:mx-5 lg:mx-10 max-w-6xl p-5 md:p-10 md:flex justify-between relative overflow-hidden" data-aos="zoom-in" data-aos-offset="330" data-aos-duration="1000">
                     <div className="">
                         <svg className="absolute top-0 left-0 animate-pulse" width="160" height="160" viewBox="0 0 160 216" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M79.4099 155.686L0 108.823L79.3614 220.698L158.812 108.823L79.3614 155.686H79.4099ZM80.5901 -38L1.21261 93.7462L80.5901 140.69L160 93.7946L80.5901 -38Z" fill="url(#paint0_linear_1_453)"/>

@@ -25,7 +25,7 @@ function App() {
       <div>
         <Main />
         <div className='relative h-36'>
-          <div className='absolute z-10 top-1/4 inset-x-1/4' data-aos="zoom-in"  data-aos-duration="2500" >
+          <div className='absolute z-10 top-1/4 inset-x-1/4' data-aos="zoom-in"  data-aos-duration="1000" >
           <Hash />
           </div>
         </div>
